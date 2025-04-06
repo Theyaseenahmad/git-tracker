@@ -1,25 +1,68 @@
-# Git Tracker
+# Git Tracker - GitHub User Analyzer 🧑‍💻📊
 
-A GitHub User Profile Analyzer that takes a GitHub username and shows their public activity metrics:
+[![Frontend](https://img.shields.io/badge/Frontend-React-blue)](https://reactjs.org)
+[![UI Library](https://img.shields.io/badge/UI-ShadCN-red)](https://ui.shadcn.dev/)
+[![Charting](https://img.shields.io/badge/Charts-Recharts-yellow)](https://recharts.org/)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript-blueviolet)](https://www.typescriptlang.org/)
 
-- ✅ Total number of public repositories
-- 📊 Bar chart showing commits made in the **last 7 days**
+**Live Demo:**  
+(You can deploy it on [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com) and paste the link here)
 
----
+![Git Tracker Banner](https://raw.githubusercontent.com/YOUR_USERNAME/git-tracker/main/public/preview.png)
 
-## 🚀 Tech Stack
-
-- **React**
-- **TypeScript**
-- **ShadCN UI**
-- **Recharts** (for charting)
+A lightweight GitHub analyzer that fetches key public metrics of a user profile and displays recent commit activity visually.
 
 ---
 
-## 🛠️ How to Run Locally
+## ✨ Key Features
 
-### 1. Clone or Download the Project
+- 📦 Lists total public repositories for a GitHub user
+- 📊 Shows a bar chart of **commits in the last 7 days**
+- ⏱️ Fetches commit data dynamically using GitHub API
+- 🎨 Clean and responsive UI with ShadCN components
+- ⚡ Built using React + TypeScript + Vite
 
-```bash
+---
+
+## 💻 Tech Stack
+
+**Frontend**  
+React | TypeScript | Vite | ShadCN UI | Recharts
+
+---
+
+## 📈 Commit Data Preview
+
+```json
+[
+  { "date": "2025-03-25", "commits": 1 },
+  { "date": "2025-03-24", "commits": 2 },
+  { "date": "2025-03-22", "commits": 3 },
+  { "date": "2025-03-21", "commits": 7 },
+  ...
+]
+
+📥 Installation
+
 git clone https://github.com/YOUR_USERNAME/git-tracker.git
 cd git-tracker
+
+Install dependencies:
+
+bash
+npm install
+
+📂 Folder Structure
+
+git-tracker/
+├── components/
+│   └── manual/
+│       └── Charts.tsx
+├── lib/
+│   └── http/
+│       ├── getCommits.ts
+│       └── getProfile.ts
+├── pages/ Home.tsx
+├── public/
+├── README.md
+└── vite.config.ts
