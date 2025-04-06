@@ -39,7 +39,6 @@ React | TypeScript | Vite | ShadCN UI | Recharts
   { "date": "2025-03-24", "commits": 2 },
   { "date": "2025-03-22", "commits": 3 },
   { "date": "2025-03-21", "commits": 7 },
-  ...
 ]
 
 📥 Installation
