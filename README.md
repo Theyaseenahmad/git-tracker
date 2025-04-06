@@ -16,11 +16,11 @@ A lightweight GitHub analyzer that fetches key public metrics of a user profile 
 
 ## ✨ Key Features
 
-- 📦 Lists total public repositories for a GitHub user
-- 📊 Shows a bar chart of **commits in the last 7 days**
-- ⏱️ Fetches commit data dynamically using GitHub API
-- 🎨 Clean and responsive UI with ShadCN components
-- ⚡ Built using React + TypeScript + Vite
+- 📦 Lists total public repositories for a GitHub user  
+- 📊 Shows a bar chart of **commits in the last 7 days**  
+- ⏱️ Fetches commit data dynamically using GitHub API  
+- 🎨 Clean and responsive UI with ShadCN components  
+- ⚡ Built using React + TypeScript + Vite  
 
 ---
 
@@ -31,27 +31,23 @@ React | TypeScript | Vite | ShadCN UI | Recharts
 
 ---
 
-## 📈 Commit Data Preview
+## 📈 Commit Data + Installation + Folder Structure
 
-```json
+```bash
 [
   { "date": "2025-03-25", "commits": 1 },
   { "date": "2025-03-24", "commits": 2 },
   { "date": "2025-03-22", "commits": 3 },
-  { "date": "2025-03-21", "commits": 7 },
+  { "date": "2025-03-21", "commits": 7 }
 ]
 
-📥 Installation
+# 📥 Installation
 
 git clone https://github.com/YOUR_USERNAME/git-tracker.git
 cd git-tracker
-
-Install dependencies:
-
-bash
 npm install
 
-📂 Folder Structure
+# 📂 Folder Structure
 
 git-tracker/
 ├── components/
@@ -61,7 +57,8 @@ git-tracker/
 │   └── http/
 │       ├── getCommits.ts
 │       └── getProfile.ts
-├── pages/ Home.tsx
+├── pages/
+│   └── Home.tsx
 ├── public/
 ├── README.md
 └── vite.config.ts
