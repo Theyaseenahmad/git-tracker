@@ -6,9 +6,9 @@
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-blueviolet)](https://www.typescriptlang.org/)
 
 **Live Demo:**  
-(You can deploy it on [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com) and paste the link here)
+https://git-tracker-one.vercel.app/
 
-![Git Tracker Banner](https://raw.githubusercontent.com/YOUR_USERNAME/git-tracker/main/public/preview.png)
+![Git Tracker Banner](https://raw.githubusercontent.com/Theyaseenahmad/git-tracker/main/public/preview.png)
 
 A lightweight GitHub analyzer that fetches key public metrics of a user profile and displays recent commit activity visually.
 

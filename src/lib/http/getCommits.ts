@@ -1,3 +1,4 @@
+
 export const getCommitActivity = async (username: string) => {
   const res = await fetch(`https://api.github.com/users/${username}/events/public`)
   if (!res.ok) throw new Error("Failed to fetch events")
