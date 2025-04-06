@@ -62,3 +62,24 @@ git-tracker/
 ├── public/
 ├── README.md
 └── vite.config.ts
+
+# 🚀 Local Deployment
+
+git clone https://github.com/YOUR_USERNAME/git-tracker.git
+cd git-tracker
+
+# Install dependencies
+npm install
+
+# Run the app locally
+npm run dev
+
+# Deployment 
+
+Visit https://vercel.com
+
+Click "New Project" and import your repository
+
+Set Framework Preset to Vite, Build Command to "npm run build", and Output Directory to "dist"
+
+Click "Deploy"
